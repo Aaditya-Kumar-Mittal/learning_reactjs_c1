@@ -1,11 +1,11 @@
 import React from "react";
-import CSBSHooksD from "./components/CSBSHooksD";
+import CSBSPassingFunctionProps from "./components/CSBSPassingFunctionProps";
 
 
 function App() {
   return (
     <div>
-      <CSBSHooksD />
+      <CSBSPassingFunctionProps />
     </div>
   );
 }
