@@ -1,11 +1,11 @@
 import React from "react";
-import CSBSStylingB from "./components/CSBSStylingB";
+import CSBSStylingC from "./components/CSBSStylingC";
 
 
 function App() {
   return (
     <div>
-      <CSBSStylingB />
+      <CSBSStylingC />
     </div>
   );
 }
