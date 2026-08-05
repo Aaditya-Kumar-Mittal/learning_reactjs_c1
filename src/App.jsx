@@ -1,11 +1,11 @@
 import React from "react";
-import CSBSStylingD from "./components/CSBSStylingD";
+import CSBSHooksD from "./components/CSBSHooksD";
 
 
 function App() {
   return (
     <div>
-      <CSBSStylingD />
+      <CSBSHooksD />
     </div>
   );
 }
