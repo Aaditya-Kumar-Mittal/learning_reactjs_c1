@@ -1,11 +1,11 @@
 import React from "react";
-import CSBSUpdatingObjectsA from "./components/CSBSUpdatingObjectsA";
+import CSBSContextAPIA from "./components/CSBSContextAPIA";
 
 
 function App() {
   return (
     <div>
-      <CSBSUpdatingObjectsA />
+      <CSBSContextAPIA/>
     </div>
   );
 }
