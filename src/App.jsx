@@ -1,11 +1,11 @@
 import React from "react";
-import CSBSPassingFunctionProps from "./components/CSBSPassingFunctionProps";
+import CSBSUpdatingObjectsA from "./components/CSBSUpdatingObjectsA";
 
 
 function App() {
   return (
     <div>
-      <CSBSPassingFunctionProps />
+      <CSBSUpdatingObjectsA />
     </div>
   );
 }
