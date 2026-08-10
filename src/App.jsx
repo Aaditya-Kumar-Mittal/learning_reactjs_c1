@@ -1,11 +1,11 @@
 import React from "react";
-import CSBSLiftingStateA from "./components/CSBSLiftingStateA";
+import CSBSUpdatingObjectsB from "./components/CSBSUpdatingObjectsB";
 
 
 function App() {
   return (
     <div>
-      <CSBSLiftingStateA />
+      <CSBSUpdatingObjectsB/>
     </div>
   );
 }
