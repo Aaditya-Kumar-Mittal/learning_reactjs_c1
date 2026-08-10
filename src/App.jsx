@@ -1,11 +1,12 @@
 import React from "react";
 import CSBSUseTransistionHookA from "./components/CSBSUseTransistionHookA";
+import CSBSDerivedStateA from "./components/CSBSDerivedStateA";
 
 
 function App() {
   return (
     <div>
-      <CSBSUseTransistionHookA />
+      <CSBSDerivedStateA />
     </div>
   );
 }
