@@ -1,11 +1,11 @@
 import React from "react";
-import CSBSUpdatingObjectsB from "./components/CSBSUpdatingObjectsB";
+import CSBSUpdatingArrayA from "./components/CSBSUpdatingArrayA";
 
 
 function App() {
   return (
     <div>
-      <CSBSUpdatingObjectsB/>
+      <CSBSUpdatingArrayA/>
     </div>
   );
 }
