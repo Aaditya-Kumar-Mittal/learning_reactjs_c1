@@ -12,12 +12,15 @@ function App1() {
   return (
     <div>
       <Routes>
-        <Route element={<MyNavbar />}>
+        <Route  element={<MyNavbar />}>
           <Route path="/*" element={<Navigate to="/" />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/settings" element={<Settings />} />
+          <Route path="/user">
+
+          <Route path="/user/" element={<Home />} />
+          <Route path="/user/about" element={<About />} />
+          <Route path="/user/contact" element={<Contact />} />
+          <Route path="/user/settings" element={<Settings />} />
+          </Route>
         </Route>
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />

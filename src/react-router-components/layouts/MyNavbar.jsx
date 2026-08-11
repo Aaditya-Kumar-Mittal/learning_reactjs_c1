@@ -15,19 +15,19 @@ function MyNavbar() {
 
           <Navbar.Collapse id="main-navbar">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="/">
+              <Nav.Link as={Link} to="/user/">
                 Home
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/about">
+              <Nav.Link as={Link} to="/user/about">
                 About
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/contact">
+              <Nav.Link as={Link} to="/user/contact">
                 Contact
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/settings">
+              <Nav.Link as={Link} to="/user/settings">
                 Settings
               </Nav.Link>
             </Nav>
