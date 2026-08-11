@@ -1,11 +1,11 @@
 import React from "react";
-import CBSContextUniversity from "./components/CBSContextUniversity";
+import SampleApp from "./react-router-components/SampleApp";
 
 
 function App() {
   return (
     <div>
-      <CBSContextUniversity />
+      <SampleApp />
     </div>
   );
 }
