@@ -1,11 +1,11 @@
 import React from "react";
-import CSBSUseIDHookA from "./components/CSBSUseIDHookA";
+import CBSContextUniversity from "./components/CBSContextUniversity";
 
 
 function App() {
   return (
     <div>
-      <CSBSUseIDHookA />
+      <CBSContextUniversity />
     </div>
   );
 }
