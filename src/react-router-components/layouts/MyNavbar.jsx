@@ -23,6 +23,10 @@ function MyNavbar() {
                 About
               </Nav.Link>
 
+              <Nav.Link as={Link} to="/user/users">
+                Users
+              </Nav.Link>
+
               <Nav.Link as={Link} to="/user/contact">
                 Contact
               </Nav.Link>
