@@ -16,10 +16,10 @@ function App1() {
       <Routes>
         <Route element={<MyNavbar />}>
           <Route path="/*" element={<Navigate to="/" />} />
+          <Route path="/" element={<Home />} />
           <Route path="/user">
-            <Route path="/user/" element={<Home />} />
             <Route path="/user/about" element={<About />} />
-            <Route path="/user/users" element={<Users />} />
+            <Route path="/user/users?" element={<Users />} />
             <Route path="/user/:id" element={<User />} />
             <Route path="/user/contact" element={<Contact />} />
             <Route path="/user/settings" element={<Settings />} />
