@@ -1,11 +1,11 @@
 import React from "react";
-import CSBSLazyLoading from "./components/CSBSLazyLoading";
+import CSBSUseApiA from "./components/CSBSUseApiA";
 
 
 function App() {
   return (
     <div>
-      <CSBSLazyLoading />
+      <CSBSUseApiA />
     </div>
   );
 }
