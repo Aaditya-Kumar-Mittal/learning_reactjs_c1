@@ -1,11 +1,11 @@
 import React from "react";
-import SampleApp from "./react-router-components/SampleApp";
+import CBSBUseReducerHookA from "./components/CBSBUseReducerHookA";
 
 
 function App() {
   return (
     <div>
-      <SampleApp />
+      <CBSBUseReducerHookA />
     </div>
   );
 }
