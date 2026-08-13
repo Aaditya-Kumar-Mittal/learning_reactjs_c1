@@ -1,11 +1,11 @@
 import React from "react";
-import CBSBUseReducerHookA from "./components/CBSBUseReducerHookA";
+import CSBSLazyLoading from "./components/CSBSLazyLoading";
 
 
 function App() {
   return (
     <div>
-      <CBSBUseReducerHookA />
+      <CSBSLazyLoading />
     </div>
   );
 }
